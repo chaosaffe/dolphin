@@ -29,4 +29,16 @@ func main() {
 
 	fmt.Printf("%d Active NZB's\n", len(nzbs))
 
+	if len(nzbs) > 0 {
+		nzbid := nzbs[0].ID
+		name := nzbs[0].Name
+		files, err := c.ListFiles(nzbid)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
+
+		fmt.Printf("%d files for %s\n", len(files), name)
+	}
+
 }

@@ -1,0 +1,4 @@
+github.com/kolo/xmlrpc v0.0.0-20190514182600-74b23a09d7ea h1:P6czQNZmNRJaTCTbYlqRBcR4Ml3Sn4jQU1i5+H7PPyI=
+github.com/kolo/xmlrpc v0.0.0-20190514182600-74b23a09d7ea/go.mod h1:o03bZfuBwAXHetKXuInt4S7omeXUu62/A845kiycsSQ=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
